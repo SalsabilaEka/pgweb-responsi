@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <style>
     html, body, #map {
         height: 100%;
@@ -36,6 +37,7 @@
     <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
 
     <div id="map"></div>
+
         <script>
             /* Penambahan peta */
             var map = L.map('map').setView([-6.99, 108.89], 11);
@@ -103,7 +105,7 @@ $.getJSON("geoserver.php", function (data) {
     wfsgeoserver2.addData(data);
     map.addLayer(wfsgeoserver2);
 });
-
+    
     //mengakses database mysql
     <?php
         $servername = "localhost";
