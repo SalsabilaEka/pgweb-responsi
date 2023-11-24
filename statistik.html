@@ -33,9 +33,11 @@
                             Data
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end">
-                            <li><a class="dropdown-item" href="statistik.html">Kasus Gizi Buruk Balita Per tahun</a></li>
-                            <li><a class="dropdown-item" href="statistik2.html">Kasus Gizi Buruk Balita Per Kecamatan</a></li>
-                            <li><a class="dropdown-item" href="statistik3.html">Jumlah Layanan Kesehatan Per Kecamatan</a></li>
+                            <li><a class="dropdown-item" href="statistik.html">Kasus Gizi Buruk Anak Per tahun</a></li>
+                            <li><a class="dropdown-item" href="statistik2.html">Kasus Gizi Buruk Anak Per Kecamatan</a>
+                            </li>
+                            <li><a class="dropdown-item" href="statistik3.html">Jumlah Layanan Kesehatan Per
+                                    Kecamatan</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
@@ -52,7 +54,7 @@
     <div class="container mt-4">
         <div class="card">
             <div class="card-header">
-                <h6>Kasus Gizi Buruk Balita Per tahun</h6>
+                <h6>Kasus Gizi Buruk Anak Per tahun</h6>
             </div>
             <div class="card-body">
                 <div id="chart"></div>
@@ -70,67 +72,40 @@
     <script>
         var options = {
             series: [{
-                name: 'Jumlah kasus gizi berat',
+                name: "Kasus Gizi Buruk per Tahun",
                 data: [140, 121, 299, 422]
             }],
             chart: {
-                type: 'bar',
-                height: 350
-            },
-            plotOptions: {
-                bar: {
-                    horizontal: false,
-                    columnWidth: '55%',
-                    endingShape: 'rounded',
-                    dataLabels: {
-                        position: 'top'
-                    }
-                },
+                height: 350,
+                type: 'line',
+                zoom: {
+                    enabled: false
+                }
             },
             dataLabels: {
                 enabled: false
             },
             stroke: {
-                show: true,
-                width: 2,
-                colors: ['transparent']
+                curve: 'straight'
+            },
+            title: {
+                align: 'left'
+            },
+            grid: {
+                row: {
+                    colors: ['#f3f3f3', 'transparent'], // takes an array which will be repeated on columns
+                    opacity: 0.5
+                },
             },
             xaxis: {
                 categories: [2018, 2019, 2021, 2022],
-                title: {
-                    text: 'Tahun'
-                }
-            },
-            yaxis: {
-                title: {
-                    text: 'Jumlah Kasus'
-                }
-            },
-            fill: {
-                opacity: 1
-            },
-            tooltip: {
-                y: {
-                    formatter: function (val) {
-                        return val + " jiwa"
-                    }
-                }
-            },
-            dataLabels: {
-                enabled: true,
-                formatter: function (val) {
-                    return val;
-                },
-                offsetY: -20,
-                style: {
-                    fontSize: '12px',
-                    colors: ["#304758"]
-                }
-            },
+            }
         };
 
         var chart = new ApexCharts(document.querySelector("#chart"), options);
         chart.render();
+
+
     </script>
 </body>
 

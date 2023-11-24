@@ -145,7 +145,7 @@ $.getJSON("geoserver.php", function (data) {
         return this._div;
     };
     title.update = function () {
-        this._div.innerHTML = '<h2>SIGIBU BREBES</h2>Sistem Informasi Gizi Buruk Balita Kab. Brebes'
+        this._div.innerHTML = '<h3>SIGIBU BREBES</h3>Sistem Informasi Gizi Buruk Anak Kab. Brebes'
     };
     title.addTo(map);
 
@@ -176,7 +176,7 @@ $.getJSON("geoserver.php", function (data) {
     L.Control.Legend = L.Control.extend({
         onAdd: function(map) {
             var img = L.DomUtil.create('img');
-            img.src = 'img/legend/legenda.jpg';
+            img.src = 'img/legend/legenda2.jpg';
             img.style.width = '200px';
             return img;
         }
