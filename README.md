@@ -28,9 +28,11 @@
 
 <h4>Tangkapan Layar Komponen Penting</h4>
 <ol>
-  <li>Landing Page</li> <img src = "assets/img/foto/cover.png" width = "500">
-  <li>Peta Sebaran Wisata (Integrasi WebGIS dan Database)</li> <img src = "assets/img/foto/wisata.png" width = "500">
-  <li>Peta Sebaran Resort/Hotel  (Integrasi WebGIS dan Database) </li> <img src = "assets/img/foto/penginapan.png" width = "500">
+  <li>Landing Page</li> <img src = "img/landingpage.png" width = "500"> <img src = "img/landingpage2.png" width = "500"> <img src = "img/landingpage3.png" width = "500"> <img src = "img/landingpage4.png" width = "500">
+  <li>Peta Tingkat Gizi Buruk (data diambil dari geoserver)</li> <img src = "img/peta1.png" width = "500">
+  <li>Peta Persebaran Layanan Kesehatan (data diambil dari database)</li> <img src = "img/peta2.png" width = "500">
+  <li>Data statistik</li> <img src = "img/datastatistik1.png" width = "500"> <img src = "img/datastatistik2.png" width = "500"> <img src = "img/datastatistik3.png" width = "500">
+  <li>Form Input Pengguna WebGIS (data akan tersimpan pada database MySQL) <img src = "img/form input.png" width = "500"></li>
 </ol>
 
 <h4>Demo Produk</h4>
