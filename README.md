@@ -1,4 +1,3 @@
-# pgweb-responsi
 <h2>SIGIBU BREBES: Sistem Informasi Gizi Buruk Anak Kabupaten Brebes</h2>
 <h4>Deskripsi produk</h4>
 <p>Berdasarkan Survei Status Gizi Indonesia (SSGI), Kabupaten Brebes menjadi wilayah dengan prevalensi anak kekurangan gizi tertinggi di Jawa Tengah mencapai 29,1%. Angka ini meningkat 2,8% dari tahun sebelumnya. WebGIS ini memberikan informasi terkait tingkat gizi buruk anak setiap kecamatan di Kabupaten Brebes dan titik pesebaran layanan kesehatan yang dapat digunakan masyarakat untuk memeriksa, mengobati, dan mencegah terjadinya gizi buruk anak.</p>
@@ -28,12 +27,9 @@
 
 <h4>Tangkapan Layar Komponen Penting</h4>
 <ol>
-  <li>Landing Page</li> <img src = "img/landingpage.png" width = "500"> <img src = "img/landingpage2.png" width = "500"> <img src = "img/landingpage3.png" width = "500"> <img src = "img/landingpage4.png" width = "500">
-  <li>Peta Tingkat Gizi Buruk (data diambil dari geoserver)</li> <img src = "img/peta1.png" width = "500">
-  <li>Peta Persebaran Layanan Kesehatan (data diambil dari database)</li> <img src = "img/peta2.png" width = "500">
-  <li>Data statistik</li> <img src = "img/datastatistik1.png" width = "500"> <img src = "img/datastatistik2.png" width = "500"> <img src = "img/datastatistik3.png" width = "500">
-  <li>Form Input Pengguna WebGIS (data akan tersimpan pada database MySQL) <img src = "img/form input.png" width = "500"></li>
+  <li>Landing Page</li> <img src = "img/landingpage.png" width = "600"> <img src = "img/landingpage2.png" width = "600"> <img src = "img/landingpage3.png" width = "600"> <img src = "img/landingpage4.png" width = "600">
+  <li>Peta Tingkat Gizi Buruk (data diambil dari geoserver)</li> <img src = "img/peta1.png" width = "600">
+  <li>Peta Persebaran Layanan Kesehatan (data diambil dari database)</li> <img src = "img/peta2.png" width = "600">
+  <li>Data statistik</li> <img src = "img/datastatistik1.png" width = "600"> <img src = "img/datastatistik2.png" width = "600"> <img src = "img/datastatistik3.png" width = "600">
+  <li>Form Input Pengguna WebGIS (data akan tersimpan pada database MySQL) <img src = "img/form input.png" width = "600"></li>
 </ol>
-
-<h4>Demo Produk</h4>
-<a href="https://salsabilaeka.github.io/pgweb-responsi/">SIGIBU Brebres</a>
