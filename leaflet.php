@@ -85,7 +85,7 @@
     },
 
     onEachFeature: function (feature, layer) {
-        var content = "Kecamatan : " + feature.properties.wadmkc;
+        var content = "Kecamatan : " + feature.properties.wadmkc + "<br>" + "Kasus Gizi Buruk : " + feature.properties.giziburuk;
         layer.on({
             click: function (e) {
                 wfsgeoserver2.bindPopup(content).openPopup();
