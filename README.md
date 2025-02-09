@@ -1,5 +1,4 @@
 <h2>SIGIBU BREBES: Sistem Informasi Gizi Buruk Anak Kabupaten Brebes</h2>
-<h4>Produk: [Website SIGIBU BREBES](https://salsabilaeka.github.io/pgweb-responsi/)<h4>
 <h4>Produk: <a href="https://salsabilaeka.github.io/pgweb-responsi/">Website SIGIBU BREBRES</a></h4>
 <h4>Deskripsi produk</h4>
 <p>Berdasarkan Survei Status Gizi Indonesia (SSGI), Kabupaten Brebes menjadi wilayah dengan prevalensi anak kekurangan gizi tertinggi di Jawa Tengah mencapai 29,1%. Angka ini meningkat 2,8% dari tahun sebelumnya. WebGIS ini memberikan informasi terkait tingkat gizi buruk anak setiap kecamatan di Kabupaten Brebes dan titik pesebaran layanan kesehatan yang dapat digunakan masyarakat untuk memeriksa, mengobati, dan mencegah terjadinya gizi buruk anak.</p>
